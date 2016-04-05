@@ -1,0 +1,16 @@
+deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi
+# Uncomment line below then 'apt-get update' to enable 'apt-get source'
+#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi
+deb http://http.kali.org/kali kali-current main contrib non-free
+deb http://security.kali.org/kali-security kali-current/updates main contrib non-free
+deb-src http://http.kali.org/kali kali-current main contrib non-free 
+
+deb http://archive.kali.org/kali kali-current main non-free contrib
+deb http://archive.kali.org/kali-security kali-current/updates main contrib non-free
+deb-src http://archive.kali.org/kali kali-current main non-free contrib
+
+#deb http://packages.linuxmint.com debian import
+
+# Kali linux repositories | Added by Katoolin
+deb http://http.kali.org/kali kali-rolling main contrib non-free
+deb http://repo.kali.org/kali kali-bleeding-edge main
